@@ -7,7 +7,7 @@ import api from './routes/routes.js';
 const app = express();
 
 // Set our backend port to be either an environment variable or port 5000
-const port = process.env.PORT || 5000;
+const port = 5000;
 
 // This application level middleware prints incoming requests to the servers console, useful to see incoming requests
 app.use((req, res, next) => {
